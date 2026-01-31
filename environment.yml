@@ -1,0 +1,23 @@
+name: AIAI
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn>=1.7.1
+  - seaborn>=0.13.2
+  - minisom>=2.3.0
+  - scipy
+  - plotly
+  - umap-learn
+  - scikit-fuzzy
+  - folium
+  - ydata-profiling
