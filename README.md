@@ -1,6 +1,8 @@
 # AIAI Customer Segmentation
 
-Project for the Data Mining course, Masters in Data Science and Advanced Analytics, NOVA IMS
+Project for the Data Mining course, Masters in Data Science and Advanced Analytics, NOVA IMS.
+
+This repository reflects a cleaned version of the project, with improved organization and documentation for clarity and reproducibility.
 
 ---
 
@@ -50,23 +52,10 @@ A final segmentation that combines behavioural and value signals, resulting in f
 
 ## Notebooks
 
-Our main notebook is **Group4_Clustering_Code.ipynb**, which contains the segmentation workflow and consolidates the final segments. It relies on the prepared dataset and engineered features built in the EDA notebook.
-
-- **Group4_EDA_Code.ipynb** – data audit, cleaning decisions, merge strategy, customer-level aggregation, feature engineering  
-- **Group4_Clustering_Code.ipynb** – clustering experiments, validation, segment selection, segment profiling and interpretation  
-- **BonusOption4- Geo-Spatial Insights.ipynb** – geographic concentration analysis and route or hub context to assess location effects  
-- **BonusOption2 - Fuzzy Clustering Implementation.ipynb** – fuzzy clustering with membership degree analysis to capture overlap and confidence  
-- **BonusOption1- Financial Impact Modeling.ipynb** – scenario-based impact modelling to help prioritize segment initiatives  
-
----
-
-## Reports
-
-- **Group4_EDA_Report.pdf**  
-- **Group4_Clustering_Report.pdf**  
-- **BonusOption6 - Business Briefing.pdf**  
-- **Financial Impact Modeling.pdf**  
-- **BonusOption2 - Fuzzy Clustering.pdf**
+- **01_EDA.ipynb** – data audit, cleaning decisions, merge strategy, customer-level aggregation, feature engineering
+- **02_Geo-Spatial_Insights.ipynb** – geographic concentration analysis and route or hub context to assess location effects  
+- **03_Clustering&Profiling.ipynb** – clustering experiments, validation, segment selection, segment profiling and interpretation  
+- **04_FuzzyClustering.ipynb** – fuzzy clustering with membership degree analysis to capture overlap and confidence  
 
 ---
 
