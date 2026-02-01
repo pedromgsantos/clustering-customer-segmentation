@@ -53,7 +53,7 @@ A final segmentation that combines behavioural and value signals, resulting in f
 ## Notebooks
 
 - **01_EDA.ipynb** – data audit, cleaning decisions, merge strategy, customer-level aggregation, feature engineering
-- **02_Geo-Spatial_Insights.ipynb** – geographic concentration analysis and route or hub context to assess location effects  
+- **02_Geo_Spatial_Insights.ipynb** – geographic concentration analysis and route or hub context to assess location effects  
 - **03_Clustering&Profiling.ipynb** – clustering experiments, validation, segment selection, segment profiling and interpretation  
 - **04_FuzzyClustering.ipynb** – fuzzy clustering with membership degree analysis to capture overlap and confidence  
 
